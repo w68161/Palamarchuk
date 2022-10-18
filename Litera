@@ -1,0 +1,12 @@
+litera = input("Podaj litere: ")
+if (len(litera)>1):
+    print("Wrpowadzono więcej niż 1 literę")
+    exit()
+
+if ('a'<=litera<="z"):
+    print('Mała literą')
+elif('A'<=litera<="Z"):
+    print('Duża literą')
+else:
+    print('Nie jest literą')
+print('1')
